@@ -25,6 +25,12 @@ public class Hospital {
     numeroEnfermeros: 200
     
     */
+    public Hospital (){
+        this.nombre = "Isidro Ayora";
+        this.ciudad = "Loja";
+        this.numeroDoctores = 100;
+        this.numeroEnfermeros = 200;
+    }
     
     public void establecerNombre(String n){
         nombre = n;
@@ -58,4 +64,7 @@ public class Hospital {
         return numeroEnfermeros;
     }
     
+   public String toString(){
+       return "Nombre: " + this.nombre + "\nCiudad: "+this.ciudad + "\nnumero Doctores: "+this.numeroDoctores + "\nnumero enfermos: "+this.numeroEnfermeros;
+   }
 }

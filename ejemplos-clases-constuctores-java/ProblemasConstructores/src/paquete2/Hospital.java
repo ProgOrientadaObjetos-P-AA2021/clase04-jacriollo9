@@ -53,4 +53,10 @@ public class Hospital {
         return numeroEnfermeros;
     }
     
+    public Hospital(String nom, String ciu, int numDoctores, int numEnfermeros){
+        nombre = nom;
+        ciudad = ciu;
+        numeroDoctores = numDoctores;
+        numeroEnfermeros = numEnfermeros;
+    }
 }

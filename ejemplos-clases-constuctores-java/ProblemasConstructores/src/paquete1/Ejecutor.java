@@ -11,8 +11,7 @@ package paquete1;
  */
 public class Ejecutor {
     public static void main(String[] args) {
-        
-        /*Crear un objeto y presentar los datos*/
-        
+        Hospital hospital = new Hospital ();
+        System.out.println(hospital);
     }
 }
